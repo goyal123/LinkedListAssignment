@@ -21,6 +21,19 @@
 
         }
 
+        public void AddFirst(int data)
+        {
+            Node newnode = new Node(data);
+
+            if (head == null)
+                head = newnode;
+            else
+            {
+                newnode.next = head;
+                head = newnode;
+            }
+        }
+
         public void display()
         {
             Node temp = head;
