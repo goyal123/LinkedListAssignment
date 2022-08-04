@@ -21,9 +21,14 @@
             Console.WriteLine("Original Linked List");
             Mylist.display();
             Console.WriteLine("---------------------------");
-            Console.WriteLine("After Removing Linked List");
+            Console.WriteLine("After Removing First Element in Linked List");
             Console.WriteLine("---------------------------");
             Mylist.RemoveFirst();
+            Mylist.display();
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("After Removing Last Element in Linked List");
+            Console.WriteLine("---------------------------");
+            Mylist.RemoveLast();
             Mylist.display();
         }
     }
