@@ -58,6 +58,15 @@
             }
         }
 
+        public void RemoveLast()
+        {
+            Node temp = head;
+            while(temp.next.next!=null)
+            {
+                temp = temp.next;
+            }
+            temp.next = null;
+        }
         public void display()
         {
             Node temp = head;
