@@ -86,6 +86,34 @@
             }
         }
 
+        public void sort()
+        {
+            Node first = head;
+            Node second = head;
+
+            if (head == null)
+                Console.WriteLine("Linked List is empty!");
+            else
+            {
+                while (first != null)
+                {
+                    second = first.next;
+                    while (second!= null)
+                    {
+                        if (first.data > second.data)
+                        {
+                            var temp = first.data;
+                            first.data = second.data;
+                            second.data = temp;
+                        }
+
+                        second = second.next;
+                    }
+                    first = first.next;
+                }
+            }
+        }
+
         public void display()
         {
             Node temp = head;
