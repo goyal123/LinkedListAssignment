@@ -30,6 +30,7 @@
             Console.WriteLine("---------------------------");
             Mylist.RemoveLast();
             Mylist.display();
+            Mylist.Find(30);
         }
     }
 }
