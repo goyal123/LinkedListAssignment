@@ -15,7 +15,9 @@
             */
 
             Mylist.AddFirst(70);
-            //Mylist.AddFirst(40);
+            Mylist.AddFirst(80);
+            Mylist.AddFirst(90);
+            Mylist.AddFirst(40);
             Mylist.AddFirst(56);
             Mylist.Insert(30,56,70);
             Console.WriteLine("Original Linked List");
@@ -31,6 +33,11 @@
             Mylist.RemoveLast();
             Mylist.display();
             Mylist.Find(30);
+            Console.WriteLine("---------------------------");
+            Mylist.sort();
+            Mylist.display();
+
+
         }
     }
 }
