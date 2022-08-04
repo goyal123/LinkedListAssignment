@@ -44,8 +44,18 @@
             Node index = temp.next;
             temp.next = newnode;
             newnode.next = index;
-            
-            
+
+        }
+
+        public void RemoveFirst()
+        {
+            Node temp = head;
+            if (head==null)
+                Console.WriteLine("Linked List is empty");
+            else
+            {
+                head = temp.next;
+            }
         }
 
         public void display()
