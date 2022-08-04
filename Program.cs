@@ -15,8 +15,9 @@
             */
 
             Mylist.AddFirst(70);
-            Mylist.AddFirst(30);
+            //Mylist.AddFirst(40);
             Mylist.AddFirst(56);
+            Mylist.Insert(30,56,70);
             Mylist.display();
 
 
