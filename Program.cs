@@ -18,10 +18,13 @@
             //Mylist.AddFirst(40);
             Mylist.AddFirst(56);
             Mylist.Insert(30,56,70);
+            Console.WriteLine("Original Linked List");
             Mylist.display();
-
-
-
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("After Removing Linked List");
+            Console.WriteLine("---------------------------");
+            Mylist.RemoveFirst();
+            Mylist.display();
         }
     }
 }
