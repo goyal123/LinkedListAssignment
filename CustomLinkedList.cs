@@ -34,6 +34,20 @@
             }
         }
 
+        public void Insert(int data,int start,int end)
+        {   Node newnode = new Node(data);
+            Node temp = head;
+            while(temp.data!=start && temp.next.data!=end)
+            {
+                temp = temp.next;
+            }
+            Node index = temp.next;
+            temp.next = newnode;
+            newnode.next = index;
+            
+            
+        }
+
         public void display()
         {
             Node temp = head;
