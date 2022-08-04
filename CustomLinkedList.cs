@@ -67,6 +67,25 @@
             }
             temp.next = null;
         }
+
+        public void Find(int data)
+        {
+            Node temp = head;
+            if (head==null)
+                Console.WriteLine("Linked List is empty!");
+            else
+            {
+                while(temp.data!=data)
+                {
+                    temp = temp.next;
+                }
+                if(temp.data==data)
+                    Console.WriteLine("Node {0} is present",temp.data);
+                else
+                    Console.WriteLine("Node {0} is not present",temp.data);
+            }
+        }
+
         public void display()
         {
             Node temp = head;
