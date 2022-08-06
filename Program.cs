@@ -7,12 +7,12 @@
             Console.WriteLine("Wecome to Linked List");
 
             CustomLinkedList Mylist = new CustomLinkedList();
-            /*
-            Mylist.AddLast(56);
-            Mylist.AddLast(30);
-            Mylist.AddLast(70);
+            
+            Mylist.AddLast(26);
+            Mylist.AddLast(20);
+            Mylist.AddLast(10);
             Mylist.display();
-            */
+            
 
             Mylist.AddFirst(70);
             Mylist.AddFirst(80);
