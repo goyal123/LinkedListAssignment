@@ -10,7 +10,7 @@
             
             Mylist.AddLast(26);
             Mylist.AddLast(20);
-            Mylist.AddLast(10);
+            Mylist.AddLast(30);
             Mylist.display();
             
 
